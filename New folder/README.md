@@ -189,28 +189,6 @@ black .
 mypy app.py
 ```
 
-## Performance
-
-- **Cold start**: ~2-3s (model loading)
-- **Warm generation**: 800-1500ms per quiz
-- **Embedding**: ~100ms per chunk set
-- **Memory**: ~500MB baseline + model size
-
-## Limitations
-
-- Requires Ollama running locally (no cloud fallback)
-- Context window: 4096 tokens (llama3.2:3b)
-- Embedding quality depends on note structure
-- No persistent storage (in-memory only)
-
-## Future Enhancements
-
-- [ ] Fine-tuned LoRA adapter for academic quiz style
-- [ ] Tool use: Calendar API for spaced repetition scheduling
-- [ ] Streaming responses for better UX
-- [ ] Persistent vector database (ChromaDB)
-- [ ] Multi-language support
-
 ## Troubleshooting
 
 **Ollama not responding:**
@@ -236,3 +214,4 @@ ollama pull llama3.2:3b
 # Reinstall dependencies
 pip install --upgrade -r requirements.txt
 ```
+
