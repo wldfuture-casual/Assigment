@@ -1,0 +1,3 @@
+{"timestamp": "2025-11-30T19:40:40.330837Z", "pathway": "RAG", "latency_ms": 2962, "status": "success", "tokens_input": 98, "tokens_output": 230, "tokens_total": 328, "chunks_retrieved": 3}
+{"timestamp": "2025-11-30T19:40:58.984665Z", "pathway": "RAG", "latency_ms": 2649, "status": "success", "tokens_input": 98, "tokens_output": 230, "tokens_total": 328, "chunks_retrieved": 3}
+{"timestamp": "2025-11-30T19:41:13.403680Z", "pathway": "RAG", "latency_ms": 2166, "status": "success", "tokens_input": 42, "tokens_output": 230, "tokens_total": 273, "chunks_retrieved": 1}
